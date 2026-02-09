@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>BRUTAL — Kinetic Typography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/brutal.css" />
+  </head>
+  <body>
+    <header class="brutal-header">
+      <div class="header-content">
+        <h1 class="logo">[BRUTAL]</h1>
+        <nav class="header-nav">
+          <a href="#about">ABOUT</a>
+          <a href="#work">WORK</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+      </div>
+      <div class="header-divider"></div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION: Kinetic Typography -->
+      <section class="hero">
+        <div class="hero-content">
+          <h2 class="kinetic-title">
+            <span class="word">DESIGN</span>
+            <span class="word">WITHOUT</span>
+            <span class="word">APOLOGY</span>
+          </h2>
+          <p class="kinetic-subtitle">Bold, Raw, Structural Typography</p>
+          <div class="cta-block">
+            <button class="brutal-btn">ENTER</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-thick"></div>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="brutal-section">
+        <div class="section-header">
+          <h2>/// PHILOSOPHY</h2>
+        </div>
+        <div class="text-block">
+          <p>Brutalism in design is the absence of ornament. Raw materials, geometric forms, honest expression. Kinetic typography animates text as a medium—not just decoration, but communication.</p>
+          <p>Every letter moves with purpose. Every word reveals with intention.</p>
+        </div>
+      </section>
+
+      <div class="divider-thick"></div>
+
+      <!-- WORK SECTION -->
+      <section id="work" class="brutal-section">
+        <div class="section-header">
+          <h2>/// SHOWCASE</h2>
+        </div>
+        <div class="grid-block">
+          <div class="grid-item">
+            <div class="grid-title kinetic-grid">KINETIC</div>
+            <p>Animated text reveals and movements.</p>
+          </div>
+          <div class="grid-item">
+            <div class="grid-title kinetic-grid">GEOMETRY</div>
+            <p>Strict, angular layouts and grids.</p>
+          </div>
+          <div class="grid-item">
+            <div class="grid-title kinetic-grid">CONTRAST</div>
+            <p>High-impact black and white palettes.</p>
+          </div>
+          <div class="grid-item">
+            <div class="grid-title kinetic-grid">BOLD</div>
+            <p>Heavy fonts, thick borders, raw edges.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-thick"></div>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="brutal-section">
+        <div class="section-header">
+          <h2>/// GET IN TOUCH</h2>
+        </div>
+        <form class="brutal-form" id="contactForm">
+          <div class="form-group">
+            <label>NAME</label>
+            <input type="text" name="name" required />
+          </div>
+          <div class="form-group">
+            <label>EMAIL</label>
+            <input type="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label>MESSAGE</label>
+            <textarea name="message" rows="6"></textarea>
+          </div>
+          <button type="submit" class="brutal-btn-submit">SEND</button>
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="brutal-footer">
+      <div class="divider-thick"></div>
+      <p>© <span id="year"></span> BRUTAL. No Flourish. No Compromise.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
+
